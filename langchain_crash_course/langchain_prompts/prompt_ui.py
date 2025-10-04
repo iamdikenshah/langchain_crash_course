@@ -7,7 +7,6 @@ from langchain_core.prompts import PromptTemplate, load_prompt
 load_dotenv()
 
 def main():
-    print("Main Called")
     st.header('Research Tool')
 
     llm = AzureChatOpenAI(deployment_name="gpt-4o-mini", 
